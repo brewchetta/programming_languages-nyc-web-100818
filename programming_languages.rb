@@ -3,7 +3,6 @@ require 'pry'
 def reformat_languages(languages)
   new_hash = {}
   languages.each do |type, value| # type = oo / value = big block
-    binding.pry
     value.each do |lang,v|# lang = ruby / v = {type=>"interpreted"}
       style = {style: [type]}
       new_hash[lang] = v.merge!(style)
