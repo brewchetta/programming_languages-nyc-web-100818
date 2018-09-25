@@ -5,7 +5,7 @@ def reformat_languages(languages)
   languages.each do |key, value|
     binding.pry
     value.each do |k,v|
-      binding.pry
+      binding.pry # k = ruby v = type=>"interpreted"
     end
   end
 end
