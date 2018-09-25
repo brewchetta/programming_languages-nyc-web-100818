@@ -14,7 +14,7 @@ def reformat_languages(languages)
 end
 
 
-
+=begin
 languages = {
   :oo => {
     :ruby => {:type => "interpreted"},
@@ -31,3 +31,4 @@ languages = {
 }
 
 reformat_languages(languages)
+=end
