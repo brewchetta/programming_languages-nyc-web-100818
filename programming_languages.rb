@@ -4,7 +4,7 @@ def reformat_languages(languages)
   new_hash = {}
   languages.each do |key, value| # key = oo / value = big block
     value.each do |lang,v|# lang = ruby / v = type=>"interpreted"
-      new_hash[lang] = v, {style: [key]} if new_hash[lang] = nil
+      new_hash[lang] = v, {style: [key]}
     end
   end
   puts new_hash
