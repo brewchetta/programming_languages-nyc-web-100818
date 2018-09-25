@@ -6,6 +6,7 @@ def reformat_languages(languages)
     value.each do |lang,v|# lang = ruby / v = {type=>"interpreted"}
       style = {style: [type]}
       new_hash[lang] = v.merge!(style) if new_hash[lang] == nil
+      new_hash[lang][:style] << type if new_hash[lang] != nil
     end
   end
   puts new_hash
