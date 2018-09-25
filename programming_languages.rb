@@ -8,7 +8,7 @@ def reformat_languages(languages)
 end
 
 
-reformat
+
 languages = {
   :oo => {
     :ruby => {:type => "interpreted"},
@@ -23,3 +23,5 @@ languages = {
     :javascript => {:type => "interpreted"}
   }
 }
+
+reformat_languages(languages)
