@@ -1,3 +1,3 @@
-def reformat_languages()
+def reformat_languages(languages)
 
 end
