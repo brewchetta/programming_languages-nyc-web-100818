@@ -1,4 +1,5 @@
 def reformat_languages(languages)
+  new_hash = 
 
 end
 
@@ -13,6 +14,6 @@ end
 #    :clojure => {:type => "compiled"},
 #    :erlang => {:type => "compiled"},
 #    :scala => {:type => "compiled"},
-#    :javascript => {:type => "interpreted"} 
+#    :javascript => {:type => "interpreted"}
 #  }
 #}
