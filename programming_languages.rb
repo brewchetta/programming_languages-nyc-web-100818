@@ -2,9 +2,9 @@ require 'pry'
 
 def reformat_languages(languages)
   new_hash = {}
-  languages.each do |key, value| # key = oo / value = big block
+  languages.each do |type, value| # type = oo / value = big block
     value.each do |lang,v|# lang = ruby / v = type=>"interpreted"
-      new_hash[lang] = v, {style: [key]}
+      new_hash[lang] = v, {style: [type]}
     end
   end
   puts new_hash
