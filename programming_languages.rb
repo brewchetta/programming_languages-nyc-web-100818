@@ -7,6 +7,7 @@ def reformat_languages(languages)
       new_hash[lang] = v
     end
   end
+  puts new_hash
 end
 
 
